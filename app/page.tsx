@@ -20,7 +20,7 @@ export default function Home() {
       <a href="#" className="neon-button absolute bottom-0">
         Discord
       </a>
-      <a href="#" className="neon-button absolute bottom-0">
+      <a href="https:/youtube.com/mrbtcgambler2" className="neon-button absolute bottom-0">
         Youtube
       </a>
       
