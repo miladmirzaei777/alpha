@@ -35,18 +35,18 @@ body {
 .logo {
   text-align: center;
   /* width: 65%;
-  height: 250px;
+  height: 250px; */
   margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; */
+  /* position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  /* bottom: 0; */ 
    user-select: none;
 }
 
 .logo b{
-  font: 400 19vh "Vibur";
+  /* font: 400 19vh "Vibur"; */
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
 }
@@ -101,8 +101,7 @@ body {
   text-decoration:none;
   display:block;
   font-family:sans-serif;
-  font-size:14px;
-  width:13em;
+ 
   padding:5px 10px;
   font-weight:600;
   position:absolute;
@@ -116,7 +115,6 @@ body {
 }#btn-twtr:hover{color:#fff;opacity:1}
 h1{
   color: #484848;
-  font-size: 50px;
   font-weight: bold;
   font-family: monospace;
   letter-spacing: 7px;
@@ -141,7 +139,7 @@ h1:hover span{
                0 0 40px #fff;
 }
 .neon-button {
-  font-size: 4rem;
+ 
   display: inline-block;
   cursor: pointer;
   text-decoration: none;
