@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex flex-col gap-2 overflow-hidden items-center justify-center min-h-screen">
       <div>
 
-      <div className="logo text-3xl lg:text-5xl flex">
+      <div className="logo text-5xl lg:text-8xl flex">
         <b>
           {" "}
           MR <span> BtC </span>Gambler
