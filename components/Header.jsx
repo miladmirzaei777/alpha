@@ -6,7 +6,7 @@ export default function Header() {
 
 
   return (
-    <header className="bg-gray-900 shadow-xl">
+    <header className="bg-gray-900 shadow-xl fixed w-full text-gray-200">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link href="/">
           <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
@@ -28,7 +28,7 @@ export default function Header() {
           </Link>
           <SignedIn>
             <UserButton
-              appearance={{ elements: { userButtonPopoverCard: { pointerEvents: 'initial',  }, }, }}
+            //   appearance={{ elements: { userButtonPopoverCard: { pointerEvents: 'initial',  }, }, }}
             />
           </SignedIn>
           <SignedOut>
