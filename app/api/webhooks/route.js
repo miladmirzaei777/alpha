@@ -71,6 +71,7 @@ export async function POST(req) {
               userMogoId: user._id,
             },
           });
+          
         } catch (error) {
           console.log('Error: Could not update user metadata:', error);
         }
