@@ -28,10 +28,10 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body
-          className={`${geistSans.variable} ${geistMono.variable} bg-dark py-7 min-h-screen font-outfit text-white antialiased`}
+          className={`${geistSans.variable} ${geistMono.variable} bg-dark  min-h-screen font-outfit text-white antialiased`}
         >
           <Header />
-
+          <div className='h-12'></div>
           {children}
         </body>
       </html>

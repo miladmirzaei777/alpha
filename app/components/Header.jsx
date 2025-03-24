@@ -46,19 +46,19 @@ export default function Header() {
             Verfiy Bets
           </Link>
           <Link
-            href="#"
+            href="/beststrategy"
             className="text-gray-400 font-medium hover:text-primary transition-colors"
           >
             Best Strategys
           </Link>
           <Link
-            href="#"
+            href="/leaderboard"
             className="text-gray-400 font-medium hover:text-primary transition-colors"
           >
             Leader Board
           </Link>
           <Link
-            href="#"
+            href="/teststategy"
             className="text-gray-400 font-medium hover:text-primary transition-colors"
           >
             Test Strategy
@@ -103,19 +103,19 @@ export default function Header() {
             Verfiy Bets
           </Link>
           <Link
-            href="#"
+            href="/beststrategy"
             className="text-gray-400 font-medium hover:text-black transition-colors"
           >
             Best Strategys
           </Link>
           <Link
-            href="#"
+            href="/leaderboard"
             className="text-gray-400 font-medium hover:text-black transition-colors"
           >
             Leader Board
           </Link>
           <Link
-            href="#"
+             href="/teststategy"
             className="text-gray-400 font-medium hover:text-primary transition-colors"
           >
             Test Strategy
